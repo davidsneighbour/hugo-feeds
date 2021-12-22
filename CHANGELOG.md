@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.7...v0.0.8) (2021-12-22)
+
+
+### Features
+
+* check if drafts should be shown, configure which posts to be shown ([ee80457](https://github.com/dnb-org/dnb-hugo-feeds/commit/ee80457d5505e65f865bf8a1efc9dc033b9bc061))
+
 ### [0.0.7](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.6...v0.0.7) (2021-12-22)
 
 ### [0.0.6](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.5...v0.0.6) (2021-12-22)

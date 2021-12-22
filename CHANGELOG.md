@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.3...v0.0.4) (2021-12-22)
+
+
+### Features
+
+* add jsonfeed format ([8453d70](https://github.com/dnb-org/dnb-hugo-feeds/commit/8453d70d04955eed26cf8e03f9c170d1d6440736))
+
+
+### Chore
+
+* **config:** update dependabot configuration ([70e373b](https://github.com/dnb-org/dnb-hugo-feeds/commit/70e373b17c8a58dcc72943e4a568f64c3794e5d7))
+* **deps:** add trim as dependency to make dependabot happy ([336acf4](https://github.com/dnb-org/dnb-hugo-feeds/commit/336acf4162d7eeaea733d4f55454e9cdbb42ee4f))
+* **deps:** update dependencies ([bd4cd2a](https://github.com/dnb-org/dnb-hugo-feeds/commit/bd4cd2ac2cf7027a4e056a8dad58abfed3d2f4b7))
+
 ### [0.0.3](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.2...v0.0.3) (2021-12-22)
 
 

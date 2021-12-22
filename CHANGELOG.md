@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.2...v0.0.3) (2021-12-22)
+
+
+### Documentation
+
+* prepare README.md generation ([a7343e0](https://github.com/dnb-org/dnb-hugo-feeds/commit/a7343e03f77dcd565bade6aac25c74f6fbb80da1))
+
 ### [0.0.2](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.1...v0.0.2) (2021-12-22)
 
 

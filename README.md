@@ -73,13 +73,30 @@ hugo mod get -u #
 
 ## Configuration
 
+### Limits
+
 `dnb-hugo-feeds` uses a cautious approach at configuring the output of the feeds. Where GoHugo's internal RSS template prints _all_ available pages without a configured limit, `dnb-hugo-feeds` will load only the 10 latest pages/posts, but you can configure at your pleasure.
 
-If either `rssLimit` or `services.rss.limit` is defined and NOT overridden by any other configuration then these values will be choosen for RSS. Limits for Atom- or JSON-feeds need to be configured explicitly.
+If either `rssLimit` or `services.rss.limit` is defined and NOT overridden by any other configuration then these values will be choosen for RSS. Limits for specific feed formats can be configured explicitly.
 
-Limits are formatted via integers. 0 disables, everything 1 and over selects the last x items and -1 lists all items.
+```toml
+[dnb]
+[dnb.feeds]
+limit = 10
 
-TODO: configuration
+[dnb.feeds.atom]
+limit = 10
+
+[dnb.feeds.rss]
+limit = 10
+
+[dnb.feeds.json]
+limit = 10
+```
+
+Limits are formatted via integers. 0 disables, everything at 1 and over selects the last x items and -1 will list all items.
+
+### TODO: configuration
 
 ```toml
 [dnb.feeds]
@@ -87,6 +104,14 @@ TODO: configuration
 [dnb.feeds.rss]
 [dnb.feeds.json]
 ```
+
+### Posts to show in feeds
+
+Set `dnb.feeds.items` to `posts` to show only items that are listed in `params.mainSections` in your feeds. All other values will result in _all_ pages being included.
+
+### Discreet Drafts
+
+Have a read through [@zbetz](https://github.com/zwbetz-gh)'s great article [Discreet Drafts in Hugo](https://zwbetz.com/discreet-drafts-in-hugo/) and rest assured that without configuration this module will hide all drafts (posts with `draft` in their frontmatter set to `true`) from it's feeds. If you wish to force drafts being shown in the feeds then set `dnb.feeds.drafts` to `true`.
 
 ## Hooks
 

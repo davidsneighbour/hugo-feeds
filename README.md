@@ -9,6 +9,21 @@
 
 # DNB GoHugo Component / FEEDS
 
+This is a GoHugo theme component that implements various configurable feed formats. Currently implemented formats are RSS, Atom and JSONfeed.
+
+Find out more about the [RSS](https://cyber.harvard.edu/rss/rss.html), [Atom](https://datatracker.ietf.org/doc/html/rfc4287) and [JSON feed](https://www.jsonfeed.org/version/1.1/) formats
+
+## ToDo
+
+- [ ] proper implementation of the formats
+  - [ ] RSS
+  - [ ] Atom
+  - [ ] JSON feed
+- [ ] add hooks (for all feed formats or individual feed formats)
+- [ ] configurable section-, taxonomy- and term-feeds
+- [ ] partial to output list of available feeds on your website
+- [ ] proper testing and dev-site
+
 <!--- THINGSTOKNOW BEGIN --->
 
 ## Some things you need to know
@@ -55,18 +70,36 @@ hugo mod get -u $REPONAME$
 hugo mod get -u #
 ```
 <!--- INSTALLUPDATE END --->
+
+## Configuration
+
+`dnb-hugo-feeds` uses a cautious approach at configuring the output of the feeds. Where GoHugo's internal RSS template prints _all_ available pages without a configured limit, `dnb-hugo-feeds` will load only the 10 latest pages/posts, but you can configure at your pleasure.
+
+If either `rssLimit` or `services.rss.limit` is defined and NOT overridden by any other configuration then these values will be choosen for RSS. Limits for Atom- or JSON-feeds need to be configured explicitly.
+
+Limits are formatted via integers. 0 disables, everything 1 and over selects the last x items and -1 lists all items.
+
+TODO: configuration
+
+```toml
+[dnb.feeds]
+[dnb.feeds.atom]
+[dnb.feeds.rss]
+[dnb.feeds.json]
+```
+
 ## Hooks
 
-`dnb-hugo-head` implements template hooks via [`dnb-hugo-hooks`](https://github.com/dnb-org/dnb-hugo-hooks) and makes the following hooks available:
+`dnb-hugo-feeds` implements template hooks via [`dnb-hugo-hooks`](https://github.com/dnb-org/dnb-hugo-hooks) and makes the following hooks available:
 
 <!-- prettier-ignore -->
 | Hook | Description |
 | --- | :--- |
-| head-init | Hooks in after the opening `head` tag. Do not open this to output anything. Just for initialising any of your plugins. |
-| head-start | Hooks in after the initial first tags that belong at the beginning of your `head` section. |
-| head-pre-css | Hooks in before the stylesheets are printed. |
-| head-post-css | Hooks in after the stylesheets are printed. |
-| head-end | Hooks in at the end of the `head` right before the closing tag. |
+| feeds-init | Hooks in after the opening tag. Do not open this to output anything. Just for initialising any of your plugins. |
+| feeds-start | Hooks in after the initial first tags that define your feeds purpose and before items of the feed are printed. |
+| feeds-end | Hooks in at the end of the feed after the items are printed. |
+
+All hooks exist in a second form containing the feed type and will run then only in that format. For example `feeds-atom-init` runs only at the init stage of the atom feed, `feeds-rss-init` in rss and `feed-jsonfeed-init` in JSONfeeds.
 
 <!--- COMPONENTS BEGIN --->
 

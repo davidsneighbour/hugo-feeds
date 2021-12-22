@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.4...v0.0.5) (2021-12-22)
+
+
+### Bug Fixes
+
+* mediatype for jsonfeed went missing, re-adding ([be5c41c](https://github.com/dnb-org/dnb-hugo-feeds/commit/be5c41c7b9dfe5bf55afbb541ed738128f3fde6c))
+
 ### [0.0.4](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.3...v0.0.4) (2021-12-22)
 
 

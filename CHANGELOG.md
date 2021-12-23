@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.9...v0.0.10) (2021-12-23)
+
+
+### Bug Fixes
+
+* use plain description as feed content instead of HTML ([727d454](https://github.com/dnb-org/dnb-hugo-feeds/commit/727d454d38694cf2c3fb46712850a4e7de1a6024))
+
 ### [0.0.9](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.8...v0.0.9) (2021-12-23)
 
 

@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.8...v0.0.9) (2021-12-23)
+
+
+### Features
+
+* netlification hook in for jsonfeed ([b217162](https://github.com/dnb-org/dnb-hugo-feeds/commit/b217162eaf5fc710c1c58e7387bc298d964d7948))
+
+
+### Chore
+
+* cleanup comment in template file ([e5ed861](https://github.com/dnb-org/dnb-hugo-feeds/commit/e5ed861ac067d84294e83977186c801adf1b883e))
+
 ### [0.0.8](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.7...v0.0.8) (2021-12-22)
 
 

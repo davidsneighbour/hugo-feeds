@@ -48,7 +48,7 @@
         "date_modified" ( .Lastmod.Format "2006-01-02T15:04:05Z07:00" )
         "id" .File.UniqueID
         "url" .Permalink
-        "content_html" .Content
+        "content_text" .Description
   ) -}}
 {{- end -}}
 {{- $feed = merge $feed ( dict "items" $items ) -}}

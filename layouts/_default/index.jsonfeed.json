@@ -1,9 +1,3 @@
-{{- /*
-
-- TODO add hooks
-
-*/ -}}
-
 {{- $drafts := partialCached "dnb-feeds/getDrafts.html" "json" . -}}
 {{- $items := partialCached "dnb-feeds/getItemsToShow.html" "json" . -}}
 

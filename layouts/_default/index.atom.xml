@@ -1,40 +1,57 @@
-{{- $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections -}}
-{{- $limit := .Site.Config.Services.RSS.Limit -}}
-{{- if ge $limit 1 -}}
-{{- $pages = $pages | first $limit -}}
+{{- $drafts := partialCached "dnb-feeds/getDrafts.html" "atom" . -}}
+{{- $items := partialCached "dnb-feeds/getItemsToShow.html" "atom" . -}}
+
+{{- $context := . -}}
+{{- if .IsHome -}}
+  {{- $context = .Site -}}
 {{- end -}}
+
+{{- $pages := $context.RegularPages -}}
+{{- with site.Params.dnb.feeds.items -}}
+  {{- if eq . "posts" -}}
+    {{- $pages = where $context.RegularPages "Type" "in" site.Params.mainSections -}}
+  {{- end -}}
+{{- end -}}
+
+{{ with $drafts }}
+  {{- $pages := where $pages "Draft" "==" . -}}
+{{ end }}
+
+{{- $limit := partialCached "dnb-feeds/getLimit.html" "atom" . -}}
+{{- $pages = $pages | first $limit -}}
+
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ .Site.LanguageCode }}">
-  <title>{{ .Site.Title }}</title>
-  {{- with .Site.Params.brand.tagline }}
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ site.LanguageCode }}">
+  <title>{{ site.Title }}</title>
+  {{- with site.Params.brand.tagline }}
   <subtitle>{{ . }}</subtitle>
   {{- end }}
   <id>{{ "/" | absLangURL }}</id>
   <author>
-    <name>{{ .Site.Title }}</name>
+    <name>{{ site.Title }}</name>
     <uri>{{ "/" | absLangURL }}</uri>
   </author>
   <generator>Hugo gohugo.io</generator>
-  {{- with .Site.Copyright }}
+  {{- with site.Copyright }}
   <rights>{{ . }}</rights>
   {{- end }}
-  {{- with .Site.Params.brand.icon }}
+  {{- with site.Params.brand.icon }}
   <icon>{{ . | absURL }}</icon>
   {{- end }}
-  {{- with .Site.Params.brand.logo }}
+  {{- with site.Params.brand.logo }}
   <logo>{{ . | absURL }}</logo>
   {{- end }}
   <updated>{{ dateFormat "2006-01-02T15:04:05Z" now.UTC | safeHTML }}</updated>
   {{- with .OutputFormats.Get "ATOM" }}
-  {{ printf `<link rel="self" type="%s" href="%s" hreflang="%s"/>` .MediaType.Type .Permalink $.Site.LanguageCode | safeHTML }}
+  {{ printf `<link rel="self" type="%s" href="%s" hreflang="%s"/>` .MediaType.Type .Permalink site.LanguageCode | safeHTML }}
   {{- end }}
   {{- range .AlternativeOutputFormats }}
-  {{ printf `<link rel="alternate" type="%s" href="%s" hreflang="%s"/>` .MediaType.Type .Permalink $.Site.LanguageCode | safeHTML }}
+  {{ printf `<link rel="alternate" type="%s" href="%s" hreflang="%s"/>` .MediaType.Type .Permalink site.LanguageCode | safeHTML }}
   {{- end }}
   {{- range $pages }}
   <entry>
     <title>{{ .Title }}</title>
-    {{- $author := index .Site.Data.authors (.Params.author | default "default") }}
+    {{- $author := .Params.author }}
     <author>
       <name>{{ $author.name }}</name>
       <uri>{{ $author.uri }}</uri>

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.10...v0.0.11) (2021-12-24)
+
+
+### Features
+
+* add atom feed template ([83574e8](https://github.com/dnb-org/dnb-hugo-feeds/commit/83574e8b6a42944fa31ecf0be77a5777056516ae))
+
 ### [0.0.10](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.9...v0.0.10) (2021-12-23)
 
 

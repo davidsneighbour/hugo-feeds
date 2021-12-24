@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.11...v0.0.12) (2021-12-24)
+
+
+### Features
+
+* add RSS feed layout ([67a9583](https://github.com/dnb-org/dnb-hugo-feeds/commit/67a9583b97fd93977399e35513f3bf04cbaa603f))
+
 ### [0.0.11](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.10...v0.0.11) (2021-12-24)
 
 

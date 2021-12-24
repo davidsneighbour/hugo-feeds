@@ -1,3 +1,26 @@
+{{- $drafts := partialCached "dnb-feeds/getDrafts.html" "rss" . -}}
+{{- $items := partialCached "dnb-feeds/getItemsToShow.html" "rss" . -}}
+
+{{- $context := . -}}
+{{- if .IsHome -}}
+  {{- $context = .Site -}}
+{{- end -}}
+
+{{- $pages := $context.RegularPages -}}
+{{- with site.Params.dnb.feeds.items -}}
+  {{- if eq . "posts" -}}
+    {{- $pages = where $context.RegularPages "Type" "in" site.Params.mainSections -}}
+  {{- end -}}
+{{- end -}}
+
+{{ with $drafts }}
+  {{- $pages := where $pages "Draft" "==" . -}}
+{{ end }}
+
+{{- $limit := partialCached "dnb-feeds/getLimit.html" "rss" . -}}
+{{- $pages = $pages | first $limit -}}
+
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>
@@ -44,7 +67,6 @@
     <lastBuildDate>{{- .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML -}}</lastBuildDate>
     {{- end -}}
     <atom:link href="{{.Permalink}}" rel="self" type="application/rss+xml" />
-    {{- $pages := first 5 (where site.RegularPages "Type" "in" site.Params.mainSections) -}}
     {{- range $pages -}}
     <item>
       <title>{{- .Title -}}</title>

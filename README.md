@@ -15,14 +15,14 @@ Find out more about the [RSS](https://cyber.harvard.edu/rss/rss.html), [Atom](ht
 
 ## ToDo
 
-- [ ] proper implementation of the formats
-  - [ ] RSS
-  - [ ] Atom
-  - [ ] JSON feed
+- [x] proper implementation of the formats
+  - [x] RSS
+  - [x] Atom
+  - [x] JSON feed
 - [ ] add hooks (for all feed formats or individual feed formats)
 - [ ] configurable section-, taxonomy- and term-feeds
 - [ ] partial to output list of available feeds on your website
-- [ ] proper testing and dev-site
+- [ ] proper testing, validation and dev-site
 
 <!--- THINGSTOKNOW BEGIN --->
 

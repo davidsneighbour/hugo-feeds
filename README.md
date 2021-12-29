@@ -1,13 +1,11 @@
 <!--- CARD BEGIN --->
 
-![DNB-Hugo/FEEDS](.github/github-card-dark.png#gh-dark-mode-only)
-![DNB-Hugo/FEEDS](.github/github-card-light.png#gh-light-mode-only)
+![DNB-Hugo/HEAD](.github/github-card-dark.png#gh-dark-mode-only)
+![DNB-Hugo/HEAD](.github/github-card-light.png#gh-light-mode-only)
 
 <!--- CARD END --->
 
-:heavy_exclamation_mark: Work in progress. Documentation follows.
-
-# DNB GoHugo Component / FEEDS
+# DNB GoHugo Component / Feeds
 
 This is a GoHugo theme component that implements various configurable feed formats. Currently implemented formats are RSS, Atom and JSONfeed.
 

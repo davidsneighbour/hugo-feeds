@@ -19,7 +19,7 @@
     "@dnb-org/prettier-config": "^3.4.6",
     "@dnb-org/remark-config": "^3.4.4",
     "@dnb-org/standard-version-config": "^3.4.3",
-    "@dnb-org/textlint-config": "^3.4.5",
+    "@dnb-org/textlint-config": "^3.4.10",
     "@dnb-org/tools": "^3.4.5"
   },
   "scripts": {

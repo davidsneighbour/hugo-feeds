@@ -27,7 +27,7 @@
   {{- $feed = merge $feed ( dict "feed_url" .Permalink ) -}}
 {{- end -}}
 
-{{- $feed = merge $feed ( dict "_generator" ( printf "GoHugo %s (%s/%s)" .Hugo.Version .Hugo.CommitHash .Hugo.BuildDate )) -}}
+{{- $feed = merge $feed ( dict "_generator" ( printf "GoHugo %s (%s/%s)" hugo.Version hugo.CommitHash hugo.BuildDate )) -}}
 
 {{- with .Site.LanguageCode -}}
   {{- $feed = merge $feed ( dict "language" . ) -}}

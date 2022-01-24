@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.12...v0.0.13) (2022-01-24)
+
+
+### Features
+
+* **fix:** use hugo instead of .Hugo (deprecated) ([e99b0cc](https://github.com/dnb-org/dnb-hugo-feeds/commit/e99b0cc56fd6df9cdc2588e17cec47685127825a))
+
+
+### Documentation
+
+* update README.md ([305d49f](https://github.com/dnb-org/dnb-hugo-feeds/commit/305d49f281ac2b7a5ceec0ff06a32aeeb7921823))
+
+
+### Chore
+
+* **config:** update header images ([a69be03](https://github.com/dnb-org/dnb-hugo-feeds/commit/a69be03475d02275cc20b6f21eef2ae54c257756))
+* update go version ([cb967f0](https://github.com/dnb-org/dnb-hugo-feeds/commit/cb967f0556184025d79747ddfebe2d80fd183993))
+* update repository files ([e845d98](https://github.com/dnb-org/dnb-hugo-feeds/commit/e845d980f599dccd53ee55c12775120866f9d554))
+
 ### [0.0.12](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.11...v0.0.12) (2021-12-24)
 
 

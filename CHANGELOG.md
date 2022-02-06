@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.14](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.13...v0.0.14) (2022-02-06)
+
+
+### Chore
+
+* **deps:** update dependencies ([a59d569](https://github.com/dnb-org/dnb-hugo-feeds/commit/a59d56961b8046c404d4795375d983c8dc63ac59))
+
 ### [0.0.13](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.12...v0.0.13) (2022-01-24)
 
 

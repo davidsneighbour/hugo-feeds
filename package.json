@@ -14,13 +14,13 @@
     "url": "https://github.com/dnb-org/dnb-hugo-feeds/issues"
   },
   "devDependencies": {
-    "@dnb-org/commitlint-config": "^3.4.4",
-    "@dnb-org/cypress-config": "^3.4.5",
-    "@dnb-org/prettier-config": "^3.4.6",
-    "@dnb-org/remark-config": "^3.4.4",
-    "@dnb-org/standard-version-config": "^3.4.3",
-    "@dnb-org/textlint-config": "^3.4.5",
-    "@dnb-org/tools": "^3.4.5"
+    "@dnb-org/commitlint-config": "^3.5.4",
+    "@dnb-org/cypress-config": "^3.5.4",
+    "@dnb-org/prettier-config": "^3.5.5",
+    "@dnb-org/remark-config": "^3.5.5",
+    "@dnb-org/standard-version-config": "^3.5.4",
+    "@dnb-org/textlint-config": "^3.5.5",
+    "@dnb-org/tools": "^3.5.4"
   },
   "scripts": {
     "clean": "run-p clean:**",
@@ -40,7 +40,7 @@
   },
   "private": true,
   "dependencies": {
-    "mem": "^9.0.1",
+    "mem": "^9.0.2",
     "trim": "^1.0.1"
   }
 }

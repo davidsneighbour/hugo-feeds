@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@dnb-org/commitlint-config": "^3.5.4",
-    "@dnb-org/cypress-config": "^3.5.4",
+    "@dnb-org/cypress-config": "^3.5.5",
     "@dnb-org/prettier-config": "^3.5.5",
     "@dnb-org/remark-config": "^3.5.5",
     "@dnb-org/standard-version-config": "^3.5.4",

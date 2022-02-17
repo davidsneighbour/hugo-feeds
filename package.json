@@ -14,13 +14,13 @@
     "url": "https://github.com/dnb-org/dnb-hugo-feeds/issues"
   },
   "devDependencies": {
-    "@dnb-org/commitlint-config": "^3.5.6",
-    "@dnb-org/cypress-config": "^3.5.6",
-    "@dnb-org/prettier-config": "^3.5.7",
-    "@dnb-org/remark-config": "^3.5.7",
-    "@dnb-org/standard-version-config": "^3.5.6",
-    "@dnb-org/textlint-config": "^3.5.7",
-    "@dnb-org/tools": "^3.5.6"
+    "@dnb-org/commitlint-config": ">=3.5.6",
+    "@dnb-org/cypress-config": ">=3.5.6",
+    "@dnb-org/prettier-config": ">=3.5.7",
+    "@dnb-org/remark-config": ">=3.5.7",
+    "@dnb-org/standard-version-config": ">=3.5.6",
+    "@dnb-org/textlint-config": ">=3.5.7",
+    "@dnb-org/tools": ">=3.5.6"
   },
   "scripts": {
     "clean": "run-p clean:**",
@@ -33,14 +33,10 @@
     "serve:hugo": "bin/dnb-hugo-dev-server.sh",
     "server": "npm run serve",
     "test": "run-p test:server test:cypress",
-    "test:ide": "run-p test:server test:cypress:ide",
     "test:cypress": "cypress run",
     "test:cypress:ide": "cypress open",
+    "test:ide": "run-p test:server test:cypress:ide",
     "test:server": "./bin/dnb-hugo-test-server.sh"
   },
-  "private": true,
-  "dependencies": {
-    "mem": "^9.0.2",
-    "trim": "^1.0.1"
-  }
+  "private": true
 }

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.16](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.15...v0.0.16) (2022-02-17)
+
+
+### Bug Fixes
+
+* add missing spaces, remove email address from feed ([fe86728](https://github.com/dnb-org/dnb-hugo-feeds/commit/fe86728f306984db732a78d6e9aa682de1a73670))
+
 ### [0.0.15](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.14...v0.0.15) (2022-02-17)
 
 

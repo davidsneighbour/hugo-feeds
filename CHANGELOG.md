@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.15](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.14...v0.0.15) (2022-02-17)
+
+
+### Build System
+
+* update build scripts ([eacfcd1](https://github.com/dnb-org/dnb-hugo-feeds/commit/eacfcd16356321d3736ede20195f89afe319b094))
+
+
+### Chore
+
+* **deps:** update dependencies ([40badab](https://github.com/dnb-org/dnb-hugo-feeds/commit/40badabfd80f09cbb7665475648e056d5cdaca62))
+* **deps:** update package setup ([8b64f63](https://github.com/dnb-org/dnb-hugo-feeds/commit/8b64f6312b958d28e9f5de9cd40644b7af062ced))
+
+
+### Documentation
+
+* fix proper license file ([0d98341](https://github.com/dnb-org/dnb-hugo-feeds/commit/0d983412fb97a1b39aa785440442a5047f7204e8))
+
 ### [0.0.14](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.13...v0.0.14) (2022-02-06)
 
 

@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.17](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.16...v0.0.17) (2022-04-06)
+
+
+### Chore
+
+* **deps:** update dependencies ([0d214ed](https://github.com/dnb-org/dnb-hugo-feeds/commit/0d214ed17d83bda648bd1310c9744aa05ed7eb38))
+* update go.mod ([14d7564](https://github.com/dnb-org/dnb-hugo-feeds/commit/14d7564893e1db7d6a6d9a7a8f3c045102b02ed1))
+
 ### [0.0.16](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.15...v0.0.16) (2022-02-17)
 
 

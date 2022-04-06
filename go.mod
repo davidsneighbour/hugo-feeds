@@ -1,3 +1,3 @@
-module github.com/dnb-org/dnb-hugo-feeds
+module github.com/davidsneighbour/hugo-feeds
 
 go 1.17

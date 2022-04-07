@@ -1,5 +1,5 @@
 {
-  "name": "@dnb-org/dnb-hugo-feeds",
+  "name": "@davidsneighbour/hugo-feeds",
   "version": "0.0.17",
   "license": "MIT",
   "description": "Feeds for GoHugo websites",
@@ -8,10 +8,10 @@
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "homepage": "https://github.com/dnb-org/dnb-hugo-feeds#readme",
-  "repository": "dnb-org/dnb-hugo-feeds",
+  "homepage": "https://github.com/davidsneighbour/hugo-feeds#readme",
+  "repository": "davidsneighbour/hugo-feeds",
   "bugs": {
-    "url": "https://github.com/dnb-org/dnb-hugo-feeds/issues"
+    "url": "https://github.com/davidsneighbour/hugo-feeds/issues"
   },
   "devDependencies": {
     "@dnb-org/commitlint-config": ">=3.5.9",

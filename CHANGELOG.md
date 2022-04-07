@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.0](https://github.com/davidsneighbour/hugo-feeds/compare/v0.0.17...v0.1.0) (2022-04-07)
+
+
+### Chore
+
+* updates and repo-renames ([d9d5b0f](https://github.com/davidsneighbour/hugo-feeds/commit/d9d5b0f37982885f93353f1c55f472890fe23332))
+
 ### [0.0.17](https://github.com/dnb-org/dnb-hugo-feeds/compare/v0.0.16...v0.0.17) (2022-04-06)
 
 

@@ -5,7 +5,7 @@
 
 <!--- CARD END --->
 
-# DNB GoHugo Component / Feeds
+# David's Neighbour GoHugo Component / Feeds
 
 This is a GoHugo theme component that implements various configurable feed formats. Currently implemented formats are RSS, Atom and JSONfeed.
 
@@ -73,7 +73,7 @@ hugo mod get -u #
 
 ### Limits
 
-`dnb-hugo-feeds` uses a cautious approach at configuring the output of the feeds. Where GoHugo's internal RSS template prints _all_ available pages without a configured limit, `dnb-hugo-feeds` will load only the 10 latest pages/posts, but you can configure at your pleasure.
+`hugo-feeds` uses a cautious approach at configuring the output of the feeds. Where GoHugo's internal RSS template prints _all_ available pages without a configured limit, `hugo-feeds` will load only the 10 latest pages/posts, but you can configure at your pleasure.
 
 If either `rssLimit` or `services.rss.limit` is defined and NOT overridden by any other configuration then these values will be choosen for RSS. Limits for specific feed formats can be configured explicitly.
 
@@ -113,7 +113,7 @@ Have a read through [@zbetz](https://github.com/zwbetz-gh)'s great article [Disc
 
 ## Hooks
 
-`dnb-hugo-feeds` implements template hooks via [`dnb-hugo-hooks`](https://github.com/davidsneighbour/hugo-hooks) and makes the following hooks available:
+`hugo-feeds` implements template hooks via [`hugo-hooks`](https://github.com/davidsneighbour/hugo-hooks) and makes the following hooks available:
 
 <!-- prettier-ignore -->
 | Hook | Description |
@@ -126,30 +126,30 @@ All hooks exist in a second form containing the feed type and will run then only
 
 <!--- COMPONENTS BEGIN --->
 
-## Other [GoHugo](https://gohugo.io/) components by [@dnb-org](https://github.com/dnb-org/)
+## Other [GoHugo](https://gohugo.io/) components by [@davidsneighbour](https://github.com/davidsneighbour/)
 
 <!-- prettier-ignore -->
 | Component | Description |
 | :--- | :--- |
-| [dnb-hugo-auditor](https://github.com/davidsneighbour/hugo-auditor) | |
-| [dnb-hugo-debug](https://github.com/davidsneighbour/hugo-debug) :mage_man: | |
-| [dnb-hugo-errors](https://github.com/davidsneighbour/hugo-errors) | |
-| [dnb-hugo-functions](https://github.com/davidsneighbour/hugo-functions) | |
-| [dnb-hugo-giscus](https://github.com/davidsneighbour/hugo-giscus) | The Giscus comment system layout for GoHugo. |
-| [dnb-hugo-head](https://github.com/davidsneighbour/hugo-head) | A GoHugo theme component that solves the old question of "What tags belong into the `<head>` tag of my website?" |
-| [dnb-hugo-hooks](https://github.com/davidsneighbour/hugo-hooks) | GoHugo's missing hook system for template extensions. |
-| [dnb-hugo-internals](https://github.com/davidsneighbour/hugo-internals) | Better internal templates for GoHugo |
-| [dnb-hugo-netlification](https://github.com/davidsneighbour/hugo-netlification) | a collection of tools that optimize your site on Netlify |
-| [dnb-hugo-opensearch](https://github.com/davidsneighbour/hugo-opensearch) | configuration for Open Search |
-| [dnb-hugo-pictures](https://github.com/davidsneighbour/hugo-pictures) | |
-| [dnb-hugo-pwa](https://github.com/davidsneighbour/hugo-pwa) | Automatically turns your site into a PWA |
-| [dnb-hugo-renderhooks](https://github.com/davidsneighbour/hugo-renderhooks) | render hooks for Markdown markup |
-| [dnb-hugo-robots](https://github.com/davidsneighbour/hugo-robots) | configure the content of your robots.txt with front matter |
-| [dnb-hugo-schema](https://github.com/davidsneighbour/hugo-schema) | |
-| [dnb-hugo-search-algolia](https://github.com/davidsneighbour/hugo-search-algolia) | |
-| [dnb-hugo-security](https://github.com/davidsneighbour/hugo-security) | |
-| [dnb-hugo-sitemap](https://github.com/davidsneighbour/hugo-sitemap) | |
-| [dnb-hugo-social](https://github.com/davidsneighbour/hugo-social) | |
+| [hugo-auditor](https://github.com/davidsneighbour/hugo-auditor) | |
+| [hugo-debug](https://github.com/davidsneighbour/hugo-debug) :mage_man: | |
+| [hugo-errors](https://github.com/davidsneighbour/hugo-errors) | |
+| [hugo-functions](https://github.com/davidsneighbour/hugo-functions) | |
+| [hugo-giscus](https://github.com/davidsneighbour/hugo-giscus) | The Giscus comment system layout for GoHugo. |
+| [hugo-head](https://github.com/davidsneighbour/hugo-head) | A GoHugo theme component that solves the old question of "What tags belong into the `<head>` tag of my website?" |
+| [hugo-hooks](https://github.com/davidsneighbour/hugo-hooks) | GoHugo's missing hook system for template extensions. |
+| [hugo-internals](https://github.com/davidsneighbour/hugo-internals) | Better internal templates for GoHugo |
+| [hugo-netlification](https://github.com/davidsneighbour/hugo-netlification) | a collection of tools that optimize your site on Netlify |
+| [hugo-opensearch](https://github.com/davidsneighbour/hugo-opensearch) | configuration for Open Search |
+| [hugo-pictures](https://github.com/davidsneighbour/hugo-pictures) | |
+| [hugo-pwa](https://github.com/davidsneighbour/hugo-pwa) | Automatically turns your site into a PWA |
+| [hugo-renderhooks](https://github.com/davidsneighbour/hugo-renderhooks) | render hooks for Markdown markup |
+| [hugo-robots](https://github.com/davidsneighbour/hugo-robots) | configure the content of your robots.txt with front matter |
+| [hugo-schema](https://github.com/davidsneighbour/hugo-schema) | |
+| [hugo-search-algolia](https://github.com/davidsneighbour/hugo-search-algolia) | |
+| [hugo-security](https://github.com/davidsneighbour/hugo-security) | |
+| [hugo-sitemap](https://github.com/davidsneighbour/hugo-sitemap) | |
+| [hugo-social](https://github.com/davidsneighbour/hugo-social) | |
 
 <!--lint disable no-missing-blank-lines -->
 <!--- COMPONENTS END --->

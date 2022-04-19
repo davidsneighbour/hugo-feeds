@@ -1,5 +1,5 @@
-const defaultStandardVersion = require("@dnb-org/standard-version-config");
-const localStandardVersion =  {
+const defaultStandardVersion = require("@davidsneighbour/standard-version-config");
+const localStandardVersion = {
   bumpFiles: [
     ...defaultStandardVersion.bumpFiles,
     {

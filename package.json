@@ -14,13 +14,13 @@
     "url": "https://github.com/davidsneighbour/hugo-feeds/issues"
   },
   "devDependencies": {
-    "@dnb-org/commitlint-config": ">=3.5.9",
-    "@dnb-org/cypress-config": ">=3.5.9",
-    "@dnb-org/prettier-config": ">=3.5.10",
-    "@dnb-org/remark-config": ">=3.5.11",
-    "@dnb-org/standard-version-config": ">=3.5.9",
-    "@dnb-org/textlint-config": ">=3.5.11",
-    "@dnb-org/tools": ">=3.5.9"
+    "@davidsneighbour/commitlint-config": ">=3.5.9",
+    "@davidsneighbour/cypress-config": ">=3.5.9",
+    "@davidsneighbour/prettier-config": ">=3.5.10",
+    "@davidsneighbour/remark-config": ">=3.5.11",
+    "@davidsneighbour/standard-version-config": ">=3.5.9",
+    "@davidsneighbour/textlint-config": ">=3.5.11",
+    "@davidsneighbour/tools": ">=3.5.9"
   },
   "scripts": {
     "clean": "run-p clean:**",

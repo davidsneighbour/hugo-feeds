@@ -126,7 +126,7 @@ All hooks exist in a second form containing the feed type and will run then only
 
 <!--- COMPONENTS BEGIN --->
 
-## Other [GoHugo](https://gohugo.io/) components by [@dnb-org](https://github.com/dnb-org/)
+## Other [GoHugo](https://gohugo.io/) components by [@davidsneighbour](https://github.com/davidsneighbour/)
 
 <!-- prettier-ignore -->
 | Component | Description |

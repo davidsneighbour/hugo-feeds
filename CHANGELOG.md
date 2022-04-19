@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/davidsneighbour/hugo-feeds/compare/v0.1.1...v0.1.2) (2022-04-19)
+
+
+### Bug Fixes
+
+* proper call to safeURL instead of safeUrl ([640f16c](https://github.com/davidsneighbour/hugo-feeds/commit/640f16c24c5cf6d6c5b07367b31f22297c391218))
+
 ### [0.1.1](https://github.com/davidsneighbour/hugo-feeds/compare/v0.1.0...v0.1.1) (2022-04-19)
 
 

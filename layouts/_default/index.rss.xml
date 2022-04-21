@@ -34,10 +34,10 @@
       {{- site.Title -}}
     {{- end -}}
   </title>
-  <webfeeds:related layout=”card” target=”browser”/>
+  <webfeeds:related layout="card" target="browser" />
   <webfeeds:logo>http://yoursite.com/logo-30px-height.svg</webfeeds:logo>
   <webfeeds:accentColor>00FF00</webfeeds:accentColor>
-  <webfeeds:cover image=”http://yoursite.com/a-large-cover-image.png“ />
+  <webfeeds:cover image="http://yoursite.com/a-large-cover-image.png" />
   <webfeeds:icon>http://feedly.com/icon.svg</webfeeds:icon>
     <link>{{- .Permalink -}}</link>
     <description>

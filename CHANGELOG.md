@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/davidsneighbour/hugo-feeds/compare/v0.1.3...v0.1.4) (2022-04-21)
+
+
+### Bug Fixes
+
+* quotation mark issues ([7925c76](https://github.com/davidsneighbour/hugo-feeds/commit/7925c768c14c9b2c912a07ba47ff93247e8c18a4))
+
 ### [0.1.3](https://github.com/davidsneighbour/hugo-feeds/compare/v0.1.2...v0.1.3) (2022-04-21)
 
 

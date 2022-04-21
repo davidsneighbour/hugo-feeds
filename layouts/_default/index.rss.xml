@@ -20,9 +20,9 @@
 {{- $limit := partialCached "dnb-feeds/getLimit.html" "rss" . -}}
 {{- $pages = $pages | first $limit -}}
 
-{{ printf "<?xml version= \"1.0\" encoding= \"utf-8\" standalone= \"yes\"?>" | safeHTML }}
+{{ printf "<?xml version='1.0' encoding='utf-8' standalone='yes'?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
- xmlns:webfeeds=”http://webfeeds.org/rss/1.0″>
+ xmlns:webfeeds="http://webfeeds.org/rss/1.0">
   <channel>
     <title>
     {{- if eq .Title site.Title -}}

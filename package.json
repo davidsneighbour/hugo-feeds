@@ -14,7 +14,7 @@
     "url": "https://github.com/davidsneighbour/hugo-feeds/issues"
   },
   "devDependencies": {
-    "@davidsneighbour/commitlint-config": ">=3.5.9",
+    "@davidsneighbour/commitlint-config": ">=4.0.4",
     "@davidsneighbour/cypress-config": ">=3.5.9",
     "@davidsneighbour/prettier-config": ">=3.5.10",
     "@davidsneighbour/remark-config": ">=3.5.11",

@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@davidsneighbour/commitlint-config": ">=3.5.9",
-    "@davidsneighbour/cypress-config": ">=3.5.9",
+    "@davidsneighbour/cypress-config": ">=4.0.4",
     "@davidsneighbour/prettier-config": ">=3.5.10",
     "@davidsneighbour/remark-config": ">=3.5.11",
     "@davidsneighbour/standard-version-config": ">=3.5.9",

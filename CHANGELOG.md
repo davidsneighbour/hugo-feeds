@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/davidsneighbour/hugo-feeds/compare/v0.1.4...v0.1.5) (2022-05-31)
+
+
+### Build System
+
+* update Github organization name & use newer NPM dependencies ([#72](https://github.com/davidsneighbour/hugo-feeds/issues/72)) ([154407a](https://github.com/davidsneighbour/hugo-feeds/commit/154407a3cc198559db67b1cc79aa91c8066c7fe1))
+
+
+### Chore
+
+* **config:** update dependabot to monthly checks ([3105a0f](https://github.com/davidsneighbour/hugo-feeds/commit/3105a0f6e9e10aa6e27785f823b0f508746f10de))
+
 ### [0.1.4](https://github.com/davidsneighbour/hugo-feeds/compare/v0.1.3...v0.1.4) (2022-04-21)
 
 

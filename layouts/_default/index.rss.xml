@@ -7,14 +7,12 @@
 {{- end -}}
 
 {{- $pages := $context.RegularPages -}}
-{{- with site.Params.dnb.feeds.items -}}
-  {{- if eq . "posts" -}}
-    {{- $pages = where $context.RegularPages "Type" "in" site.Params.mainSections -}}
-  {{- end -}}
+{{- with site.Params.mainSections -}}
+  {{- $pages = where site.RegularPages "Type" "in" . -}}
 {{- end -}}
 
 {{ with $drafts }}
-  {{- $pages := where $pages "Draft" "==" . -}}
+  {{- $pages = where $pages "Draft" "==" . -}}
 {{ end }}
 
 {{- $limit := partialCached "dnb-feeds/getLimit.html" "rss" . -}}
@@ -61,7 +59,7 @@
     <lastBuildDate>{{- .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML -}}</lastBuildDate>
     {{- end -}}
     <atom:link href="{{.Permalink}}" rel="self" type="application/rss+xml" />
-    {{- range $pages -}}
+    {{- range $pages }}
     <item>
       <title>{{- .Title -}}</title>
       <link>{{- .Permalink -}}</link>

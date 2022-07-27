@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/davidsneighbour/hugo-feeds/compare/v0.1.5...v0.1.6) (2022-07-27)
+
+
+### Bug Fixes
+
+* proper author markup in atom feed ([c04cba3](https://github.com/davidsneighbour/hugo-feeds/commit/c04cba3368c772c5dde91aa4d434f3c62e99cadc))
+* remove author information for now ([28dbca6](https://github.com/davidsneighbour/hugo-feeds/commit/28dbca69790f3dc4deda97459ec0c648764ad60b))
+
+
+### Chore
+
+* **deps:** update dependencies ([c378404](https://github.com/davidsneighbour/hugo-feeds/commit/c37840482e62924a155747fab0434b6556db8305))
+
 ### [0.1.5](https://github.com/davidsneighbour/hugo-feeds/compare/v0.1.4...v0.1.5) (2022-05-31)
 
 

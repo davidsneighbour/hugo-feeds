@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/davidsneighbour/hugo-feeds/compare/v1.0.0...v1.0.1) (2022-07-27)
+
+
+### Bug Fixes
+
+* actually show items from the mainsections if configured ([45035a5](https://github.com/davidsneighbour/hugo-feeds/commit/45035a59fae6d8860836911fd07a064af08fbcac))
+
 ## [1.0.0](https://github.com/davidsneighbour/hugo-feeds/compare/v0.1.7...v1.0.0) (2022-07-27)
 
 ### [0.1.7](https://github.com/davidsneighbour/hugo-feeds/compare/v0.1.6...v0.1.7) (2022-07-27)

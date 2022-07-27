@@ -51,12 +51,17 @@
   {{- range $pages }}
   <entry>
     <title>{{ .Title }}</title>
-    {{/* {{- with .Params.author -}}
+    {{- with .Params.author -}}
       <author>
         <name>{{- with .name -}}{{- . -}}{{- else -}}{{- site.Title -}}{{- end -}}</name>
-        <uri>{{ .uri }}</uri>
+        <uri>{{- with .homepage -}}{{- . -}}{{- else -}}{{- site.BaseURL -}}{{- end -}}</uri>
       </author>
-    {{- end -}} */}}
+    {{- else -}}
+      <author>
+        <name>{{- with site.Author.name -}}{{- . -}}{{- else -}}{{- site.Title -}}{{- end -}}</name>
+        <uri>{{- with site.Author.homepage -}}{{- . -}}{{- end -}}</uri>
+      </author>
+    {{- end -}}
     <id>{{ .Permalink }}</id>
     {{- if .IsTranslated -}}
     {{ range .Translations }}

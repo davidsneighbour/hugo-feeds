@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/davidsneighbour/hugo-feeds/compare/v0.1.6...v0.1.7) (2022-07-27)
+
+
+### Chore
+
+* **config:** add release script for major version ([bbd54bf](https://github.com/davidsneighbour/hugo-feeds/commit/bbd54bfdc14cdda285309d5ec881f66d90288bf8))
+
 ### [0.1.6](https://github.com/davidsneighbour/hugo-feeds/compare/v0.1.5...v0.1.6) (2022-07-27)
 
 

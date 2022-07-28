@@ -7,14 +7,12 @@
 {{- end -}}
 
 {{- $pages := $context.RegularPages -}}
-{{- with site.Params.dnb.feeds.items -}}
-  {{- if eq . "posts" -}}
-    {{- $pages = where $context.RegularPages "Type" "in" site.Params.mainSections -}}
-  {{- end -}}
+{{- with site.Params.mainSections -}}
+  {{- $pages = where site.RegularPages "Type" "in" . -}}
 {{- end -}}
 
 {{ with $drafts }}
-  {{- $pages := where $pages "Draft" "==" . -}}
+  {{- $pages = where $pages "Draft" "==" . -}}
 {{ end }}
 
 {{- $limit := partialCached "dnb-feeds/getLimit.html" "json" . -}}

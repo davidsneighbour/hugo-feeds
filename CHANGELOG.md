@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/davidsneighbour/hugo-feeds/compare/v1.0.1...v1.0.2) (2022-07-28)
+
+
+### Bug Fixes
+
+* proper content evaluation in json and atom feeds ([8067184](https://github.com/davidsneighbour/hugo-feeds/commit/80671846abce60736d0d17270c3cd0db4bb3ddff))
+
 ### [1.0.1](https://github.com/davidsneighbour/hugo-feeds/compare/v1.0.0...v1.0.1) (2022-07-27)
 
 

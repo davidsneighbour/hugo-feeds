@@ -19,7 +19,7 @@
     "@davidsneighbour/prettier-config": "^4.0.9",
     "@davidsneighbour/remark-config": "^4.0.5",
     "@davidsneighbour/standard-version-config": "^4.0.8",
-    "@davidsneighbour/textlint-config": "^4.0.7",
+    "@davidsneighbour/textlint-config": "^4.0.9",
     "@davidsneighbour/tools": "^4.0.9"
   },
   "scripts": {

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/davidsneighbour/hugo-feeds/compare/v1.0.2...v1.0.3) (2022-09-01)
+
+
+### Chore
+
+* **deps:** update dependencies ([27bdcdf](https://github.com/davidsneighbour/hugo-feeds/commit/27bdcdf2f159b6fd782672c2b15e536a36c57602))
+
 ### [1.0.2](https://github.com/davidsneighbour/hugo-feeds/compare/v1.0.1...v1.0.2) (2022-07-28)
 
 
